@@ -1,0 +1,257 @@
+/*ESTILOS GERAIS */
+
+section{
+	margin-bottom: 80px;
+	padding-bottom: 20px;
+
+}
+p{
+	font-family: kotta-one, serif;
+	font-size: 18px;
+	line-height: 27px;
+	color: #000;
+}
+
+
+
+.titulo{
+	background: url('../img/marcador.png') no-repeat;
+	background-position: left;
+	min-height: 37px;
+	min-width: 130px;
+	padding-left: 40px;
+	font-size: 36px;
+	font-family: aclonica, sans-serif;
+	color:  #3E4095;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 25px;
+}
+
+.subtitulo{
+	font-size: 24px;
+	font-family: aclonica, sans-serif;
+	color:  #3E4095;
+	font-weight: bold;
+}
+
+.btn-center{
+	text-align: center;
+		margin: 0 auto;
+		margin: 20px 0px;
+}
+
+i{
+	line-height: -10;
+}
+
+.btn{
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    min-width: 120px;
+    padding: 15px 25px;
+    background: #ed3237;
+    border-radius: 4px;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1.786em;
+    line-height: 1;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    outline: none;
+    transition: background-color 0.2s, color 0.2s;
+    -webkit-font-kerning: normal;
+    font-kerning: normal;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    cursor: pointer;
+    border: none;
+}
+.btn:hover{
+	background: #3E4095;
+	color: #FFF;
+}
+
+/* ESTILOS TOPO */
+.banner{
+	width: 100%;
+	height: 600px;
+	background: url('../img/bg-banner.jpg');
+	background-size: cover;
+	
+
+}
+
+.box-quote{
+	padding-top: 300px;
+}
+
+.menu{
+	width: 100%;
+	height: 100px;
+	background: rgba(255,255,255,0.8);
+	position: fixed;
+	z-index: 999;
+	
+}
+
+.listaMenu{
+	height: 100px;
+}
+.listaMenu a li{
+	display: inline-block;
+	height: 100px;
+	padding: 40px 10px;
+}
+
+.listaMenu a{
+	font-size: 18px;
+	color: #3E4095;
+}
+
+
+.listaMenu a:hover{
+	color: #fff;
+}
+.listaMenu a:hover li{
+	background-color: #3E4095;
+}
+
+/* QUOTE BANNER */
+.quote{
+	min-height: 150px;
+	background: url('../img/quote.png');
+	margin: 0 auto ;
+	float: none;
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+.quote p{
+	font-family: Georgia, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color: #3E4095;
+	padding: 20px 0;
+	float: none;
+	margin: 0 auto;
+}
+
+.quote cite{
+	font-family: Georgia, sans-serif;
+	float: right;
+	margin-right: 100px;
+	color: #3E4095;
+}
+
+/* SOBRE */
+
+.foto-sobre, .texto-sobre{
+	padding-left: 40px;
+}
+
+.image{
+	width: 280px;
+	height: 350px;
+	background: #3E4095;
+}
+
+/* QUEBRAS DE SEÇÃO */
+
+.quebra{
+	width: 100%;
+	height: 280px;
+	margin-bottom: 60px;
+	padding-top: 60px;
+
+}
+
+.quebra1{
+	background-color: #c16466;
+}
+
+.quebra .quote{
+	margin: 0 auto;
+}
+
+.listaDepoimentos l
+i p{
+	text-align: center;
+}
+
+.listaDepoimentos li cite{
+	float: right;
+	margin-right: 100px;
+}
+
+
+/* CLIENTES */
+
+.listaClientes li{
+	height: 220px;
+	background-color: #ccc;
+}
+
+/*PALESTRAS */
+
+.palestras{
+	background-color: #eee;
+	padding-top: 20px;
+}
+
+.listaPalestras li{
+	height: 400px;
+	
+}
+
+.img-palestra{
+	height: 150px;
+	background-color: #fff;
+}
+.info-palestra{
+	height: 250px;
+	background-color: #000;
+}
+
+/* CONTATO */
+
+.form-contato input[type="text"]{
+	width: 300px;
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.form-contato textarea{
+	width: 300px;
+	height: 150px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+
+.form-contato input, textarea{
+	display: block;
+	margin: 10px 0px;
+	padding-left: 10px;
+
+}
+/* RODAPÉ */
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: #F44622;
+	text-align: center;
+	padding: 10px;
+}
+
+footer p{
+	color: #fff;
+
+	font-size: 12px;
+}
